@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  nodejs:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - output_volume:/app
+    command: [ "node", "/app/server.js" ]
+volumes:
+  output_volume:
