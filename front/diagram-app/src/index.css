@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 50%;
+  background-color: rgb(130, 122, 116);
+}
+.image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(130, 122, 116);
+}
+.input-area {
+  padding: 20px;
+  width: 50%;
+  height: 70%;
+  border-radius: 15px;
+  border: solid 5px;
+  border-color: rgb(227, 166, 116);
+}
+.submmit-button {
+  background-color: chocolate;
+  width: 50%;
+  height: 4%;
+  border-color: rgb(227, 166, 116);
+  border-radius: 15px;
+}
+.image-container {
+  width: 80%;
+  border-radius: 15px;
+  border: solid 5px;
+  border-color: rgb(227, 166, 116);
+}
